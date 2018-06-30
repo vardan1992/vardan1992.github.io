@@ -1,0 +1,43 @@
+ body {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    
+} 
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size: 2.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(217, 230, 235);
+    background-color: blue;
+    padding: 20px;
+}
+
+.btn {
+    padding: 10px 50px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: orangered;
+    transition: transform 1s;
+    border-radius: 20px;
+}
+.btn:hover {
+    background-color: orange;
+    transform: scale(1.3);
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+}
