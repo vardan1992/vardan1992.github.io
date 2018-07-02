@@ -35,6 +35,7 @@ header {
 .row {
     height: 50%;;
     margin: 10px;
+    margin-left: 20px;
     display: flex;
     flex-wrap: wrap;
 }
@@ -53,6 +54,7 @@ li {
     font-family: fantasy;
     font-size: 25px;
     color: red;
+    margin-left: 20px;
 }
 li button {
     float: right;
