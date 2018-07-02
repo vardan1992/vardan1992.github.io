@@ -1,0 +1,63 @@
+body {
+    background-color: rgba(243, 78, 13, 0.904);
+    font-family: fantasy;
+}
+header {
+    
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+
+.container {
+    height: 100%;
+    margin-top: 20px;
+    display: flex;
+    
+    
+   justify-content: center;
+    align-items: center;
+   
+
+    
+}
+
+.btn-primary {
+     background-color: rgb(238, 80, 112);
+}
+.btn-primary:hover {
+    background-color: rgb(245, 4, 44);
+}
+.input-container {
+    display: flex;
+    justify-content: center;
+}
+.row {
+    height: 50%;;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btn , .alert {
+    margin: 0 20px;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+li {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 25px;
+    color: red;
+}
+li button {
+    float: right;
+}
+
+button, input {
+    height: 50px;
+}
