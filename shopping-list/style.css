@@ -63,3 +63,6 @@ li button {
 button, input {
     height: 50px;
 }
+.done {
+    text-decoration: line-through;
+}

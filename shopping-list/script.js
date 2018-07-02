@@ -10,6 +10,8 @@ const liDOMGenerator = () => {
         li.classList.add("list-group-item" , "list-group-item-danger");
         li.addEventListener("click", (e) => {
             e.target.classList.toggle("list-group-item-danger");
+
+            e.target.classList.toggle("done");
         })
         li.appendChild(removeButton());
         ulDOM.appendChild(li);
