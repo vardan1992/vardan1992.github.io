@@ -1,6 +1,6 @@
 body {
     width: 100%;
-    background: linear-gradient(to right, red, blue);
+    background: linear-gradient(to right, rgba(243, 78, 13, 0.904), rgba(243, 78, 13, 0.904));
     font-family: fantasy;
 }
 header {
